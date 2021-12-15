@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Test",
+			"Path": "D:\\Code\\UnrealEngine\\Test\\Source\\Test.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TestEditor",
+			"Path": "D:\\Code\\UnrealEngine\\Test\\Source\\TestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
