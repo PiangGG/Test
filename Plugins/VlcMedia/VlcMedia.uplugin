@@ -1,0 +1,53 @@
+{
+	"FileVersion": 3,
+	"Version": 14,
+	"VersionName": "14.0",
+	"FriendlyName": "VLC Media Player",
+	"Description": "Implements a media player using the Video LAN Codec (libvlc).",
+	"Category": "Media Players",
+	"CreatedBy": "Epic Games Inc",
+	"CreatedByURL": "http://epicgames.com",
+	"DocsURL": "https://github.com/ue4plugins/VlcMedia",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VlcMedia",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Linux",
+				"Mac",
+				"Win32",
+				"Win64"
+			]
+		},
+		{
+			"Name": "VlcMediaEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "VlcMediaFactory",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "VlcMediaFactory",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Linux",
+				"Mac",
+				"Win32",
+				"Win64"
+			]
+		}
+	]
+}

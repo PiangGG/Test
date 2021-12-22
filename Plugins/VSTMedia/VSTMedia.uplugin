@@ -1,0 +1,58 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "v2.0.1",
+  "FriendlyName": "VST Media Player",
+  "Description": "Implements a media player using the FFMpeg.",
+  "Category": "Media Players",
+  "CreatedBy": "",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "VSTMedia",
+      "Type": "RuntimeNoCommandlet",
+      "LoadingPhase": "PreLoadingScreen",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "VSTMediaEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "VSTMediaFactory",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "VSTMediaFactory",
+      "Type": "RuntimeNoCommandlet",
+      "LoadingPhase": "PostEngineInit",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "VST_Video",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    }
+  ]
+}
